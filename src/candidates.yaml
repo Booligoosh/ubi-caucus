@@ -141,15 +141,14 @@
   state: "NV"
   district: 2
   twitterHandle: "@RepRickShepherd"
-  websiteLink: "http://rickshepherd.com"
-  donationLink: "On Website, Link Malfunctioning"
+  websiteLink: "https://rickshepherd.com"
+  donationLink: "https://rickshepherd.com/?page_id=1992"
 
 - name: "David Gokhshtein"
   state: "NY"
   district: 1
   twitterHandle: "@davidgokhshtein"
   websiteLink: "http://votegokhshtein.com"
-  donationLink: "No Donations (Yet)"
 
 - name: "Daniel Ross"
   state: "NY"

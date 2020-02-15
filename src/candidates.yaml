@@ -219,3 +219,10 @@
   state: "MD"
   district: 5
   twitterHandle: "@AnbuJr010"
+
+- name: "Morgan Harper"
+  state: "OH"
+  district: 3
+  twitterHandle: "@mh4oh"
+  websiteLink: "https://www.morganharper.org/"
+  donationLink: "https://secure.actblue.com/donate/morganharper"

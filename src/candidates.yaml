@@ -1,3 +1,9 @@
+- name: "Zoltan Istvan"
+  runningFor: "president"
+  twitterHandle: "zoltan_istvan"
+  websiteLink: "https://zoltan2020.com"
+  donationLink: "https://zoltan2020.nationbuilder.com/donate"
+  
 - name: "Daniel Whitfield"
   runningFor: "senate"
   state: "AR"
@@ -240,12 +246,6 @@
   twitterHandle: "JustinWootonSC"
   websiteLink: "https://wootonforsenate.com"
   donationLink: "https://secure.actblue.com/donate/justin-for-justice"
-
-- name: "Zoltan Istvan"
-  runningFor: "president"
-  twitterHandle: "zoltan_istvan"
-  websiteLink: "https://zoltan2020.com"
-  donationLink: "https://zoltan2020.nationbuilder.com/donate"
 
 - name: "Rashad Lloyd"
   runningFor: "house"

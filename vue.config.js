@@ -4,6 +4,5 @@ module.exports = {
     workboxOptions: {
       exclude: [`_redirects`, `_headers`]
     }
-  },
-  publicPath: `https://ubi-caucus.netlify.com`
+  }
 };

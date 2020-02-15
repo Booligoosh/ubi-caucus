@@ -22,7 +22,6 @@ import PersonCard from "@/components/PersonCard.vue";
 import { stateNameFromAbbreviation } from "@/helperFunctions";
 
 export default {
-  name: "Home",
   components: {
     PersonCard
   },

@@ -12,5 +12,8 @@ module.exports = {
       .use("yaml-loader")
       .loader("yaml-loader")
       .end();
+  },
+  devServer: {
+    port: 2024
   }
 };

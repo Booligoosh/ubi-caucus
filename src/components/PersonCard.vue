@@ -16,8 +16,8 @@
       >
       <a
         class="donate"
-        v-if="person.donateLink"
-        :href="person.donateLink"
+        v-if="person.donationLink"
+        :href="person.donationLink"
         target="_blank"
         >Donate</a
       >
@@ -32,7 +32,7 @@ export default {
   },
   computed: {
     imageUrl() {
-      return `https://avatars.io/twitter/${this.person.twitter}`;
+      return `https://avatars.io/twitter/${this.person.twitterHandle}`;
     },
     runningIn() {
       if (this.person.area.toLowerCase().trim() === `presidential candidate`) {
@@ -42,22 +42,22 @@ export default {
       }
     },
     websiteLink() {
-      if (this.person.website) {
+      if (this.person.websiteLink) {
         if (
-          this.person.website.startsWith(`http://`) ||
-          this.person.website.startsWith(`https://`)
+          this.person.websiteLink.startsWith(`http://`) ||
+          this.person.websiteLink.startsWith(`https://`)
         ) {
-          return this.person.website;
+          return this.person.websiteLink;
         } else {
-          return `http://${this.person.website}`;
+          return `http://${this.person.websiteLink}`;
         }
       } else {
         return null;
       }
     },
     twitterLink() {
-      if (this.person.twitter) {
-        return `https://twitter.com/${this.person.twitter}`;
+      if (this.person.twitterHandle) {
+        return `https://twitter.com/${this.person.twitterHandle}`;
       } else {
         return null;
       }

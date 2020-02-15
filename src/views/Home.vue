@@ -19,6 +19,7 @@
 
 <script>
 import PersonCard from "@/components/PersonCard.vue";
+import { stateNameFromAbbreviation } from "@/helperFunctions";
 
 export default {
   name: "Home",
@@ -35,9 +36,16 @@ export default {
       const people = this.$store.state.people;
       if (this.search) {
         return people.filter(person =>
-          this.transformForSearch(`${person.name} ${person.area}`).includes(
-            this.transformForSearch(this.search)
-          )
+          this.transformForSearch(
+            [
+              person.name,
+              person.state,
+              stateNameFromAbbreviation(person.state),
+              person.district,
+              person.state + person.district,
+              stateNameFromAbbreviation(person.state) + person.district
+            ].join(` `)
+          ).includes(this.transformForSearch(this.search))
         );
       } else {
         return people;

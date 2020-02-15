@@ -26,6 +26,8 @@
 </template>
 
 <script>
+import { padWithZeroes, stateNameFromAbbreviation } from "@/helperFunctions";
+
 export default {
   props: {
     person: Object
@@ -35,10 +37,17 @@ export default {
       return `https://avatars.io/twitter/${this.person.twitterHandle}`;
     },
     runningIn() {
-      if (this.person.area.toLowerCase().trim() === `presidential candidate`) {
+      if (this.person.runningForPresident) {
         return `Running for president`;
       } else {
-        return `Running in ${this.person.area}`;
+        if (this.person.district) {
+          return `Running in ${this.person.state}-${padWithZeroes(
+            this.person.district,
+            2
+          )}`;
+        } else {
+          return `Running in ${stateNameFromAbbreviation(this.person.state)}`;
+        }
       }
     },
     websiteLink() {

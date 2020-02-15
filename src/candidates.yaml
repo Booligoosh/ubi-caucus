@@ -1,197 +1,217 @@
-- area: Arkansas
-  name: "Daniel Whitfield"
+- name: "Daniel Whitfield"
+  state: "AR"
   twitterHandle: "@DanWhitCongress"
   websiteLink: "http://danwhitcongress.us"
   donationLink: "https://donorbox.org/daniel-whitfield-for-arkansans-senate-2020"
 
-- area: "CA-05"
-  name: "Jason Kishineff"
+- name: "Jason Kishineff"
+  state: "CA"
+  district: 5
   twitterHandle: "@kishineff"
   websiteLink: "http://kishineff.net"
   donationLink: "https://secure.actblue.com/donate/elect-jason-kishineff-1"
 
-- area: "CA-08"
-  name: "James Ellars"
+- name: "James Ellars"
+  state: "CA"
+  district: 8
   twitterHandle: "@Ellars"
   websiteLink: "http://JamesEllars.com"
   donationLink: "https://secure.actblue.com/donate/james-ellars-for-congress-1"
 
-- area: "CA-10"
-  name: "Ryan Blevins"
+- name: "Ryan Blevins"
+  state: "CA"
+  district: 10
   twitterHandle: "@Blevins2020"
   websiteLink: "http://Blevinsforcongress.com"
   donationLink: "https://secure.actblue.com/donate/ryan-blevins"
 
-- area: "CA-12"
-  name: "Agatha Bacelar"
+- name: "Agatha Bacelar"
+  state: "CA"
+  district: 12
   twitterHandle: "@AgathaBacelar"
   websiteLink: "http://agathaforcongress.com"
   donationLink: "https://secure.actblue.com/donate/agatha"
 
-- area: "CA-30"
-  name: "CJ Berina"
+- name: "CJ Berina"
+  state: "CA"
+  district: 30
   twitterHandle: "@CJ4Congress2020"
   websiteLink: "http://cjforcongress2020.com"
   donationLink: "https://secure.actblue.com/donate/cj-berina-for-congress-2020-1"
 
-- area: "CA-34"
-  name: "David Kim"
+- name: "David Kim"
+  state: "CA"
+  district: 34
   twitterHandle: "@davidkim2020"
   websiteLink: "http://davidkim2020.com"
   donationLink: "https://secure.actblue.com/donate/david-kim-2020-1"
 
-- area: "CA-42"
-  name: "Liam O'Mara"
+- name: "Liam O'Mara"
+  state: "CA"
+  district: 42
   twitterHandle: "@LiamOMaraIV"
   websiteLink: "http://liamomara.org"
   donationLink: "bit.ly/liamdonate"
 
-- area: "GA-04"
-  name: "Antonio Cortez"
+- name: "Antonio Cortez"
+  state: "GA"
+  district: 4
   twitterHandle: "@ACHforCongress"
   websiteLink: "http://antioniohicksforcongress.com"
   donationLink: "https://secure.actblue.com/donate/antonio-cortez-hicks-for-congress-1?amount=3"
 
-- area: "GA-05"
-  name: "Barrington Martin II"
+- name: "Barrington Martin II"
+  state: "GA"
+  district: 5
   twitterHandle: "@_BarringtonII"
-  websiteLink: null
   donationLink: "https://secure.actblue.com/donate/barrington-ii-for-congress-2"
 
-- area: "GA-08"
-  name: "Jimmy Cooper"
+- name: "Jimmy Cooper"
+  state: "GA"
+  district: 8
   twitterHandle: "@RevolutionaryJC"
   websiteLink: "https://jimmycooperforcongress.com/home"
   donationLink: "https://jimmycooperforcongress.com/donate"
 
-- area: Kentucky
-  name: "Eric Rothmuller"
+- name: "Eric Rothmuller"
+  state: "KY"
   twitterHandle: "@EricRothmuller"
   websiteLink: "http://ericrothmuller.com"
-  donationLink: "https://secure.actblue.com/donate/eric-rothmuller-for-kentucky-1"
+  donationLink: "https://secure.actblue.com/donate/eric-rothmuller-for-KY-1"
 
-- area: Kentucky
-  name: "Charles Booker"
+- name: "Charles Booker"
+  state: "KY"
   twitterHandle: "@Booker4KY"
-  websiteLink: "https://bookerforkentucky.com/"
-  donationLink: "https://secure.actblue.com/donate/booker-for-kentucky"
+  websiteLink: "https://bookerforKY.com/"
+  donationLink: "https://secure.actblue.com/donate/booker-for-KY"
 
-- area: "MD-05"
-  name: "McKayla Wilkes"
+- name: "McKayla Wilkes"
+  state: "MD"
+  district: 5
   twitterHandle: "@MeetMckayla"
   websiteLink: "http://mckayls2020.com"
   donationLink: "https://secure.actblue.com/donate/-mckaylaforcongress-1#"
 
-- area: "MA-08"
-  name: "Brianna Wu"
+- name: "Brianna Wu"
+  state: "MD"
+  district: 8
   twitterHandle: "@BriannaWu"
   websiteLink: "http://briannawuforcongress.com"
   donationLink: "https://secure.actblue.com/donate/brianna-wu-for-congress?refcode=website&amount=25"
 
-- area: "MO-05"
-  name: "Antwain Winters"
+- name: "Antwain Winters"
+  state: "MO"
+  district: 5
   twitterHandle: "@ForWinters"
-  websiteLink: null
-  donationLink: null
 
-- area: Montana
-  name: "Mike Knoles"
+- name: "Mike Knoles"
+  state: "MT"
   twitterHandle: "@KnolesMichael"
-  websiteLink: null
   donationLink: "https://secure.actblue.com/donate/mikeknoles#"
 
-- area: "NE-01"
-  name: "Barbara Ramsey"
+- name: "Barbara Ramsey"
+  state: "NE"
+  district: 1
   twitterHandle: "@babsramsey"
   websiteLink: "http://ArmitageforCongress.com"
   donationLink: "https://secure.actblue.com/donate/babsforcongress"
 
-- area: "NC-11"
-  name: "Michael O'Shea"
+- name: "Michael O'Shea"
+  state: "NC"
+  district: 11
   twitterHandle: "@OShea4Congress"
   websiteLink: "http://osheaforcongress.com"
   donationLink: "https://secure.actblue.com/donate/osheaforcongress"
 
-- area: "NH-02"
-  name: "Arturo Watts"
+- name: "Arturo Watts"
+  state: "NH"
+  district: 2
   twitterHandle: "@ArturoForNH"
   websiteLink: "https://www.youtube.com/channel/UCvZa4_G-GIqVV3NkN1QjS7A"
   donationLink: "https://www.patreon.com/ShavingWithTully"
 
-- area: "NJ-6"
-  name: "Russ Cirincione"
+- name: "Russ Cirincione"
+  state: "NJ"
+  district: 6
   twitterHandle: "@RussForUs2020"
   websiteLink: "http://RussForUs2020.com"
   donationLink: "https://secure.actblue.com/donate/thousand-donors-russforus2020?refcode=menu-q419"
 
-- area: "NV-02"
-  name: "Rick Shepherd"
+- name: "Rick Shepherd"
+  state: "NV"
+  district: 2
   twitterHandle: "@RepRickShepherd"
   websiteLink: "http://rickshepherd.com"
   donationLink: "On Website, Link Malfunctioning"
 
-- area: "NY-01"
-  name: "David Gokhshtein"
+- name: "David Gokhshtein"
+  state: "NY"
+  district: 1
   twitterHandle: "@davidgokhshtein"
   websiteLink: "http://votegokhshtein.com"
   donationLink: "No Donations (Yet)"
 
-- area: "NY-03"
-  name: "Daniel Ross"
+- name: "Daniel Ross"
+  state: "NY"
+  district: 3
   twitterHandle: "@DCR2o2o"
   websiteLink: "http://Ross4NY.com"
-  donationLink: null
 
-- area: "NY-09"
-  name: "Lutchi Gayot"
+- name: "Lutchi Gayot"
+  state: "NY"
+  district: 9
   twitterHandle: "@LutchiGayot"
   websiteLink: "http://teamgayot.com"
   donationLink: "https://secure.actblue.com/donate/lutchi-gayot"
 
-- area: "NY-10"
-  name: "Jonathan Herzog"
+- name: "Jonathan Herzog"
+  state: "NY"
+  district: 10
   twitterHandle: "@JonathanHerzog5"
   websiteLink: "http://herzog2020.com"
   donationLink: "https://secure.actblue.com/donate/herzog2020"
 
-- area: "NY-13"
-  name: "James Felton Keith"
+- name: "James Felton Keith"
+  state: "NY"
+  district: 13
   twitterHandle: "@JFKii"
   websiteLink: "http://JamesFeltonKeith.com"
   donationLink: "https://secure.actblue.com/donate/jfkii"
 
-- area: "NY-15"
-  name: "Chivona Newsome"
+- name: "Chivona Newsome"
+  state: "NY"
+  district: 15
   twitterHandle: "@newyorkvonni"
-  websiteLink: null
   donationLink: "https://t.co/M2qql683gp?amp=1"
 
-- area: "TX-24"
-  name: "John Biggan"
+- name: "John Biggan"
+  state: "TX"
+  district: 24
   twitterHandle: "@Biggan4Congress"
   websiteLink: "http://bigganforcongress.com"
   donationLink: "https://secure.actblue.com/donate/biggan-contribute"
 
-- area: "WA-03"
-  name: "Rudy Atencio"
+- name: "Rudy Atencio"
+  state: "WA"
+  district: 3
   twitterHandle: "@rudy_atencio"
   websiteLink: "http://rudywa.org"
   donationLink: "https://secure.actblue.com/donate/rudyatencio"
 
-- area: "WA-05"
-  name: "Chris Amritage"
+- name: "Chris Amritage"
+  state: "WA"
+  district: 5
   twitterHandle: "@RealArmi"
-  websiteLink: null
   donationLink: "https://t.co/iDlO0Qjv5Z?amp=1"
 
-- area: "South Carolina"
-  name: "Justin Wooton"
+- name: "Justin Wooton"
+  state: "SC"
   twitterHandle: "@JustinWootonSC"
   websiteLink: "http://wootonforsenate.com"
   donationLink: "https://secure.actblue.com/donate/justin-for-justice"
 
-- area: "Presidential Candidate"
-  name: "Zoltan Istvan"
+- name: "Zoltan Istvan"
+  runningForPresident: true
   twitterHandle: "@zoltan_istvan"
   websiteLink: "http://zoltan2020.com"
   donationLink: "https://zoltan2020.nationbuilder.com/donate"

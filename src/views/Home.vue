@@ -34,7 +34,7 @@ export default {
   data() {
     return {
       search: ``,
-      people: shuffleArray(candidates)
+      people: candidates
     };
   },
   computed: {

@@ -24,7 +24,7 @@
 
 <script>
 import candidates from "json-loader!yaml-loader!../candidates.yaml";
-import { stateNameFromAbbreviation, shuffleArray } from "@/helperFunctions";
+import { stateNameFromAbbreviation/*, shuffleArray*/ } from "@/helperFunctions";
 import PersonCard from "@/components/PersonCard.vue";
 
 export default {
@@ -34,7 +34,7 @@ export default {
   data() {
     return {
       search: ``,
-      people: shuffleArray(candidates)
+      people: /*shuffleArray(*/candidates/*)*/
     };
   },
   computed: {

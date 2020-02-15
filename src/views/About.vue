@@ -13,7 +13,10 @@
         href="https://docs.google.com/spreadsheets/d/1seQBwEMJ9aM5MluxBVlnLlwFRfhldICwKiSevf69bmk/edit#gid=0"
         target="_blank"
         >this spreadsheet</a
-      >, compiled and maintained by @Crabdor.
+      >, compiled and maintained by
+      <a href="https://twitter.com/StevenPenderg11" target="_blank"
+        >@StevenPenderg11</a
+      >.
     </p>
   </div>
 </template>

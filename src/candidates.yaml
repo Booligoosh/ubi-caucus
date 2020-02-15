@@ -195,3 +195,9 @@
   twitterHandle: "@zoltan_istvan"
   websiteLink: "http://zoltan2020.com"
   donationLink: "https://zoltan2020.nationbuilder.com/donate"
+
+- area: "A pineapple under the sea"
+  name: "Spongebob Squarepants"
+  twitterHandle: "@Spongebob"
+  websiteLink: "https://spongebob.example.com"
+  donation:ink: "https://spongebob.example.com"

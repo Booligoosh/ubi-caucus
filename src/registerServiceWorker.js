@@ -24,7 +24,7 @@ if (process.env.NODE_ENV === "production") {
       // https://github.com/vuejs-templates/pwa/issues/177#issuecomment-454402196
       setTimeout(() => {
         window.location.reload(true);
-      }, 1000);
+      }, 1);
     },
     offline() {
       console.log(

@@ -11,11 +11,7 @@
 </template>
 
 <script>
-export default {
-  created() {
-    this.$store.dispatch(`loadSpreadsheetData`);
-  }
-};
+export default {};
 </script>
 
 <style>

@@ -18,8 +18,9 @@
 </template>
 
 <script>
+import candidates from "json-loader!yaml-loader!../candidates.yaml";
+import { stateNameFromAbbreviation, shuffleArray } from "@/helperFunctions";
 import PersonCard from "@/components/PersonCard.vue";
-import { stateNameFromAbbreviation } from "@/helperFunctions";
 
 export default {
   components: {
@@ -27,12 +28,13 @@ export default {
   },
   data() {
     return {
-      search: ``
+      search: ``,
+      people: shuffleArray(candidates)
     };
   },
   computed: {
     peopleToShow() {
-      const people = this.$store.state.people;
+      const people = this.people;
       if (this.search) {
         return people.filter(person =>
           this.transformForSearch(

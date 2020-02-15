@@ -7,6 +7,7 @@
         <a
           href="https://github.com/Booligoosh/ubi-caucus/tree/store-data-in-repo#adding--editing-candidate-data"
           target="_blank"
+          rel="noopener"
           >Add candidate</a
         >
       </div>

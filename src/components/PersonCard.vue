@@ -8,10 +8,20 @@
       </div>
     </div>
     <div class="buttons">
-      <a class="website" v-if="websiteLink" :href="websiteLink" target="_blank"
+      <a
+        class="website"
+        v-if="websiteLink"
+        :href="websiteLink"
+        target="_blank"
+        rel="noopener"
         >Website</a
       >
-      <a class="twitter" v-if="twitterLink" :href="twitterLink" target="_blank"
+      <a
+        class="twitter"
+        v-if="twitterLink"
+        :href="twitterLink"
+        target="_blank"
+        rel="noopener"
         >Twitter</a
       >
       <a
@@ -19,6 +29,7 @@
         v-if="person.donationLink"
         :href="person.donationLink"
         target="_blank"
+        rel="noopener"
         >Donate</a
       >
     </div>

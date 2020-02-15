@@ -51,7 +51,7 @@
   district: 42
   twitterHandle: "@LiamOMaraIV"
   websiteLink: "http://liamomara.org"
-  donationLink: "bit.ly/liamdonate"
+  donationLink: "https://bit.ly/liamdonate"
 
 - name: "Antonio Cortez"
   state: "GA"

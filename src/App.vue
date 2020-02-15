@@ -3,7 +3,12 @@
     <div class="nav-wrapper">
       <div id="nav">
         <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link>
+        <router-link to="/about">About</router-link> |
+        <a
+          href="https://github.com/Booligoosh/ubi-caucus/tree/store-data-in-repo#adding--editing-candidate-data"
+          target="_blank"
+          >Add candidate</a
+        >
       </div>
     </div>
     <router-view class="page" />
@@ -37,15 +42,19 @@ body {
   color: hsl(210, 29%, 24%);
 }
 
+#nav {
+  color: #9da4ac;
+  cursor: default;
+}
+
 #nav a {
   font-weight: bold;
-  opacity: 0.5;
-  color: inherit;
   text-decoration: none;
+  color: inherit;
 }
 
 #nav a.router-link-exact-active {
-  opacity: 1;
+  color: hsl(210, 29%, 24%);
 }
 
 .page,

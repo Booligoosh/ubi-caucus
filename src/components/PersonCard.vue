@@ -1,7 +1,7 @@
 <template>
   <div class="person-card">
     <div class="card-header">
-      <img :src="imageUrl" />
+      <img :src="imageUrl" loading="lazy" />
       <div class="card-header-text">
         <h3 class="name">{{ person.name }}</h3>
         <h4 class="area">{{ runningIn }}</h4>

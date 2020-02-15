@@ -29,6 +29,10 @@ html {
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
@@ -50,12 +54,18 @@ body {
 #nav {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1200px;
+  max-width: 1264px;
   padding: 2rem;
 }
 
 .nav-wrapper {
   background: white;
   margin-bottom: -3rem;
+}
+
+p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: hsl(203, 89%, 53%);
 }
 </style>

@@ -4,17 +4,31 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view />
+    <router-view class="page" />
   </div>
 </template>
 
+<script>
+export default {
+  created() {
+    this.$store.dispatch(`loadSpreadsheetData`);
+  }
+};
+</script>
+
 <style>
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  color: hsl(210, 29%, 24%);
 }
 
 #nav {
@@ -28,5 +42,11 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.page {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
 }
 </style>

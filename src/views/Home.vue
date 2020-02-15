@@ -1,18 +1,31 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <h1>Candidates supporting Universal Basic Income</h1>
+    <div class="people">
+      <PersonCard
+        v-for="person of $store.state.people"
+        :key="person.id"
+        :person="person"
+      />
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import PersonCard from "@/components/PersonCard.vue";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld
+    PersonCard
   }
 };
 </script>
+
+<style scoped>
+.people {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+</style>

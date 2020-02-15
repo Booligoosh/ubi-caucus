@@ -2,7 +2,9 @@ module.exports = {
   pwa: {
     name: `UBI Caucus`,
     workboxOptions: {
-      exclude: [`_redirects`, `_headers`]
+      exclude: [`_redirects`, `_headers`],
+      skipWaiting: true,
+      clientsClaim: true
     }
   },
   chainWebpack: config => {

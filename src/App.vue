@@ -43,11 +43,13 @@ body {
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  opacity: 0.5;
+  color: inherit;
+  text-decoration: none;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  opacity: 1;
 }
 
 .page,

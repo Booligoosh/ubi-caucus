@@ -54,7 +54,7 @@ export default {
       return `https://avatars.io/twitter/${this.person.twitterHandle}/medium`;
     },
     runningIn() {
-      if (this.person.runningForPresident) {
+      if (this.person.runningFor === `president`) {
         return `Running for president`;
       } else {
         if (this.person.district) {

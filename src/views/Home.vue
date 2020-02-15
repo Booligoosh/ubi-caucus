@@ -7,6 +7,7 @@
       class="search"
       v-model="search"
       placeholder="Search by name, state or district"
+      autocomplete="off"
     />
     <label for="search" class="search-label"
       >Search by name, state or district</label

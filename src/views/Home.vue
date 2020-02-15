@@ -1,7 +1,11 @@
 <template>
   <div class="home">
     <h1>Candidates supporting Universal Basic Income</h1>
+    <label for="search" class="search-label"
+      >Search by name, state or district</label
+    >
     <input
+      id="search"
       type="text"
       class="search"
       v-model="search"
@@ -102,5 +106,9 @@ export default {
 .search:focus {
   outline: none;
   box-shadow: inset 0 0 0 1px hsl(210, 29%, 85%);
+}
+
+.search-label {
+  display: none;
 }
 </style>

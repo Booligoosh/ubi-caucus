@@ -36,7 +36,7 @@ export default {
     },
     runningIn() {
       if (this.person.area.toLowerCase().trim() === `presidential candidate`) {
-        return `Running as presidential candidate`;
+        return `Running for president`;
       } else {
         return `Running in ${this.person.area}`;
       }

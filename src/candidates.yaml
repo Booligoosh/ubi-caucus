@@ -2,7 +2,7 @@
   runningFor: "senate"
   state: "AR"
   twitterHandle: "@DanWhitCongress"
-  websiteLink: "http://danwhitcongress.us"
+  websiteLink: "https://danwhitcongress.us"
   donationLink: "https://donorbox.org/daniel-whitfield-for-arkansans-senate-2020"
 
 - name: "Jason Kishineff"
@@ -10,7 +10,7 @@
   state: "CA"
   district: 5
   twitterHandle: "@kishineff"
-  websiteLink: "http://kishineff.net"
+  websiteLink: "https://kishineff.net"
   donationLink: "https://secure.actblue.com/donate/elect-jason-kishineff-1"
 
 - name: "James Ellars"
@@ -18,7 +18,7 @@
   state: "CA"
   district: 8
   twitterHandle: "@Ellars"
-  websiteLink: "http://JamesEllars.com"
+  websiteLink: "https://JamesEllars.com"
   donationLink: "https://secure.actblue.com/donate/james-ellars-for-congress-1"
 
 - name: "Ryan Blevins"
@@ -26,7 +26,7 @@
   state: "CA"
   district: 10
   twitterHandle: "@Blevins2020"
-  websiteLink: "http://Blevinsforcongress.com"
+  websiteLink: "https://Blevinsforcongress.com"
   donationLink: "https://secure.actblue.com/donate/ryan-blevins"
 
 - name: "Agatha Bacelar"
@@ -34,7 +34,7 @@
   state: "CA"
   district: 12
   twitterHandle: "@AgathaBacelar"
-  websiteLink: "http://agathaforcongress.com"
+  websiteLink: "https://agathaforcongress.com"
   donationLink: "https://secure.actblue.com/donate/agatha"
 
 - name: "CJ Berina"
@@ -42,7 +42,7 @@
   state: "CA"
   district: 30
   twitterHandle: "@CJ4Congress2020"
-  websiteLink: "http://cjforcongress2020.com"
+  websiteLink: "https://cjforcongress2020.com"
   donationLink: "https://secure.actblue.com/donate/cj-berina-for-congress-2020-1"
 
 - name: "David Kim"
@@ -58,7 +58,7 @@
   state: "CA"
   district: 42
   twitterHandle: "@LiamOMaraIV"
-  websiteLink: "http://liamomara.org"
+  websiteLink: "https://liamomara.org"
   donationLink: "https://bit.ly/liamdonate"
 
 - name: "Antonio Cortez Hicks"
@@ -88,7 +88,7 @@
   runningFor: "senate"
   state: "KY"
   twitterHandle: "@EricRothmuller"
-  websiteLink: "http://ericrothmuller.com"
+  websiteLink: "https://ericrothmuller.com"
   donationLink: "https://secure.actblue.com/donate/eric-rothmuller-for-KY-1"
 
 - name: "Charles Booker"
@@ -111,7 +111,7 @@
   state: "MD"
   district: 8
   twitterHandle: "@BriannaWu"
-  websiteLink: "http://briannawuforcongress.com"
+  websiteLink: "https://briannawuforcongress.com"
   donationLink: "https://secure.actblue.com/donate/brianna-wu-for-congress?refcode=website&amount=25"
 
 - name: "Antwain Winters"
@@ -131,7 +131,7 @@
   state: "NE"
   district: 1
   twitterHandle: "@babsramsey"
-  websiteLink: "http://ArmitageforCongress.com"
+  websiteLink: "https://ArmitageforCongress.com"
   donationLink: "https://secure.actblue.com/donate/babsforcongress"
 
 - name: "Michael O'Shea"
@@ -139,7 +139,7 @@
   state: "NC"
   district: 11
   twitterHandle: "@OShea4Congress"
-  websiteLink: "http://osheaforcongress.com"
+  websiteLink: "https://osheaforcongress.com"
   donationLink: "https://secure.actblue.com/donate/osheaforcongress"
 
 - name: "Arturo Watts"
@@ -155,7 +155,7 @@
   state: "NJ"
   district: 6
   twitterHandle: "@RussForUs2020"
-  websiteLink: "http://RussForUs2020.com"
+  websiteLink: "https://RussForUs2020.com"
   donationLink: "https://secure.actblue.com/donate/thousand-donors-russforus2020?refcode=menu-q419"
 
 - name: "Rick Shepherd"
@@ -171,21 +171,21 @@
   state: "NY"
   district: 1
   twitterHandle: "@davidgokhshtein"
-  websiteLink: "http://votegokhshtein.com"
+  websiteLink: "https://votegokhshtein.com"
 
 - name: "Daniel Ross"
   runningFor: "house"
   state: "NY"
   district: 3
   twitterHandle: "@DCR2o2o"
-  websiteLink: "http://Ross4NY.com"
+  websiteLink: "https://Ross4NY.com"
 
 - name: "Lutchi Gayot"
   runningFor: "house"
   state: "NY"
   district: 9
   twitterHandle: "@LutchiGayot"
-  websiteLink: "http://teamgayot.com"
+  websiteLink: "https://teamgayot.com"
   donationLink: "https://secure.actblue.com/donate/lutchi-gayot"
 
 - name: "Jonathan Herzog"
@@ -193,7 +193,7 @@
   state: "NY"
   district: 10
   twitterHandle: "@JonathanHerzog5"
-  websiteLink: "http://herzog2020.com"
+  websiteLink: "https://herzog2020.com"
   donationLink: "https://secure.actblue.com/donate/herzog2020"
 
 - name: "James Felton Keith"
@@ -201,7 +201,7 @@
   state: "NY"
   district: 13
   twitterHandle: "@JFKii"
-  websiteLink: "http://JamesFeltonKeith.com"
+  websiteLink: "https://JamesFeltonKeith.com"
   donationLink: "https://secure.actblue.com/donate/jfkii"
 
 - name: "Chivona Newsome"
@@ -216,7 +216,7 @@
   state: "TX"
   district: 24
   twitterHandle: "@Biggan4Congress"
-  websiteLink: "http://bigganforcongress.com"
+  websiteLink: "https://bigganforcongress.com"
   donationLink: "https://secure.actblue.com/donate/biggan-contribute"
 
 - name: "Rudy Atencio"
@@ -224,7 +224,7 @@
   state: "WA"
   district: 3
   twitterHandle: "@rudy_atencio"
-  websiteLink: "http://rudywa.org"
+  websiteLink: "https://rudywa.org"
   donationLink: "https://secure.actblue.com/donate/rudyatencio"
 
 - name: "Chris Amritage"
@@ -238,13 +238,13 @@
   runningFor: "senate"
   state: "SC"
   twitterHandle: "@JustinWootonSC"
-  websiteLink: "http://wootonforsenate.com"
+  websiteLink: "https://wootonforsenate.com"
   donationLink: "https://secure.actblue.com/donate/justin-for-justice"
 
 - name: "Zoltan Istvan"
   runningFor: "president"
   twitterHandle: "@zoltan_istvan"
-  websiteLink: "http://zoltan2020.com"
+  websiteLink: "https://zoltan2020.com"
   donationLink: "https://zoltan2020.nationbuilder.com/donate"
 
 - name: "Rashad Lloyd"

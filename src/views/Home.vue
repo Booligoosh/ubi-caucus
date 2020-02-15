@@ -1,9 +1,6 @@
 <template>
   <div class="home">
     <h1>Candidates supporting Universal Basic Income</h1>
-    <label for="search" class="search-label"
-      >Search by name, state or district</label
-    >
     <input
       id="search"
       type="text"
@@ -11,6 +8,9 @@
       v-model="search"
       placeholder="Search by name, state or district"
     />
+    <label for="search" class="search-label"
+      >Search by name, state or district</label
+    >
     <div class="people">
       <PersonCard
         v-for="person of peopleToShow"

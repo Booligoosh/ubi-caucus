@@ -1,3 +1,6 @@
+const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
+  .BundleAnalyzerPlugin;
+
 module.exports = {
   pwa: {
     name: `UBI Caucus`,
@@ -19,5 +22,15 @@ module.exports = {
   },
   devServer: {
     port: 2024
+  },
+
+  configureWebpack: {
+    plugins: [
+      new BundleAnalyzerPlugin({
+        analyzerMode: `static`,
+        reportFilename: `bundleAnalyzer.html`,
+        openAnalyzer: false
+      })
+    ]
   }
 };

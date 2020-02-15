@@ -34,7 +34,7 @@ export default {
   },
   computed: {
     imageUrl() {
-      return `https://avatars.io/twitter/${this.person.twitterHandle}`;
+      return `https://avatars.io/twitter/${this.person.twitterHandle}/medium`;
     },
     runningIn() {
       if (this.person.runningForPresident) {

@@ -1,7 +1,7 @@
 - name: "Daniel Whitfield"
   runningFor: "senate"
   state: "AR"
-  twitterHandle: "@DanWhitCongress"
+  twitterHandle: "DanWhitCongress"
   websiteLink: "https://danwhitcongress.us"
   donationLink: "https://donorbox.org/daniel-whitfield-for-arkansans-senate-2020"
 
@@ -9,7 +9,7 @@
   runningFor: "house"
   state: "CA"
   district: 5
-  twitterHandle: "@kishineff"
+  twitterHandle: "kishineff"
   websiteLink: "https://kishineff.net"
   donationLink: "https://secure.actblue.com/donate/elect-jason-kishineff-1"
 
@@ -17,7 +17,7 @@
   runningFor: "house"
   state: "CA"
   district: 8
-  twitterHandle: "@Ellars"
+  twitterHandle: "Ellars"
   websiteLink: "https://JamesEllars.com"
   donationLink: "https://secure.actblue.com/donate/james-ellars-for-congress-1"
 
@@ -25,7 +25,7 @@
   runningFor: "house"
   state: "CA"
   district: 10
-  twitterHandle: "@Blevins2020"
+  twitterHandle: "Blevins2020"
   websiteLink: "https://Blevinsforcongress.com"
   donationLink: "https://secure.actblue.com/donate/ryan-blevins"
 
@@ -33,7 +33,7 @@
   runningFor: "house"
   state: "CA"
   district: 12
-  twitterHandle: "@AgathaBacelar"
+  twitterHandle: "AgathaBacelar"
   websiteLink: "https://agathaforcongress.com"
   donationLink: "https://secure.actblue.com/donate/agatha"
 
@@ -41,7 +41,7 @@
   runningFor: "house"
   state: "CA"
   district: 30
-  twitterHandle: "@CJ4Congress2020"
+  twitterHandle: "CJ4Congress2020"
   websiteLink: "https://cjforcongress2020.com"
   donationLink: "https://secure.actblue.com/donate/cj-berina-for-congress-2020-1"
 
@@ -49,7 +49,7 @@
   runningFor: "house"
   state: "CA"
   district: 34
-  twitterHandle: "@davidkim2020"
+  twitterHandle: "davidkim2020"
   websiteLink: "http://davidkim2020.com"
   donationLink: "https://secure.actblue.com/donate/david-kim-2020-1"
 
@@ -57,7 +57,7 @@
   runningFor: "house"
   state: "CA"
   district: 42
-  twitterHandle: "@LiamOMaraIV"
+  twitterHandle: "LiamOMaraIV"
   websiteLink: "https://liamomara.org"
   donationLink: "https://bit.ly/liamdonate"
 
@@ -65,7 +65,7 @@
   runningFor: "house"
   state: "GA"
   district: 4
-  twitterHandle: "@ACHforCongress"
+  twitterHandle: "ACHforCongress"
   websiteLink: "https://antoniohicksforcongress.com"
   donationLink: "https://secure.actblue.com/donate/antonio-cortez-hicks-for-congress-1?amount=3"
 
@@ -73,28 +73,28 @@
   runningFor: "house"
   state: "GA"
   district: 5
-  twitterHandle: "@_BarringtonII"
+  twitterHandle: "_BarringtonII"
   donationLink: "https://secure.actblue.com/donate/barrington-ii-for-congress-2"
 
 - name: "Jimmy Cooper"
   runningFor: "house"
   state: "GA"
   district: 8
-  twitterHandle: "@RevolutionaryJC"
+  twitterHandle: "RevolutionaryJC"
   websiteLink: "https://jimmycooperforcongress.com/home"
   donationLink: "https://jimmycooperforcongress.com/donate"
 
 - name: "Eric Rothmuller"
   runningFor: "senate"
   state: "KY"
-  twitterHandle: "@EricRothmuller"
+  twitterHandle: "EricRothmuller"
   websiteLink: "https://ericrothmuller.com"
   donationLink: "https://secure.actblue.com/donate/eric-rothmuller-for-KY-1"
 
 - name: "Charles Booker"
   runningFor: "senate"
   state: "KY"
-  twitterHandle: "@Booker4KY"
+  twitterHandle: "Booker4KY"
   websiteLink: "https://bookerforkentucky.com"
   donationLink: "https://secure.actblue.com/donate/booker-for-kentucky"
 
@@ -102,7 +102,7 @@
   runningFor: "house"
   state: "MD"
   district: 5
-  twitterHandle: "@MeetMckayla"
+  twitterHandle: "MeetMckayla"
   websiteLink: "https://mckayla2020.com"
   donationLink: "https://secure.actblue.com/donate/-mckaylaforcongress-1#"
 
@@ -110,7 +110,7 @@
   runningFor: "house"
   state: "MD"
   district: 8
-  twitterHandle: "@BriannaWu"
+  twitterHandle: "BriannaWu"
   websiteLink: "https://briannawuforcongress.com"
   donationLink: "https://secure.actblue.com/donate/brianna-wu-for-congress?refcode=website&amount=25"
 
@@ -118,19 +118,19 @@
   runningFor: "house"
   state: "MO"
   district: 5
-  twitterHandle: "@ForWinters"
+  twitterHandle: "ForWinters"
 
 - name: "Mike Knoles"
   runningFor: "senate"
   state: "MT"
-  twitterHandle: "@KnolesMichael"
+  twitterHandle: "KnolesMichael"
   donationLink: "https://secure.actblue.com/donate/mikeknoles#"
 
 - name: "Barbara Ramsey"
   runningFor: "house"
   state: "NE"
   district: 1
-  twitterHandle: "@babsramsey"
+  twitterHandle: "babsramsey"
   websiteLink: "https://ArmitageforCongress.com"
   donationLink: "https://secure.actblue.com/donate/babsforcongress"
 
@@ -138,7 +138,7 @@
   runningFor: "house"
   state: "NC"
   district: 11
-  twitterHandle: "@OShea4Congress"
+  twitterHandle: "OShea4Congress"
   websiteLink: "https://osheaforcongress.com"
   donationLink: "https://secure.actblue.com/donate/osheaforcongress"
 
@@ -146,7 +146,7 @@
   runningFor: "house"
   state: "NH"
   district: 2
-  twitterHandle: "@ArturoForNH"
+  twitterHandle: "ArturoForNH"
   websiteLink: "https://www.youtube.com/channel/UCvZa4_G-GIqVV3NkN1QjS7A"
   donationLink: "https://www.patreon.com/ShavingWithTully"
 
@@ -154,7 +154,7 @@
   runningFor: "house"
   state: "NJ"
   district: 6
-  twitterHandle: "@RussForUs2020"
+  twitterHandle: "RussForUs2020"
   websiteLink: "https://RussForUs2020.com"
   donationLink: "https://secure.actblue.com/donate/thousand-donors-russforus2020?refcode=menu-q419"
 
@@ -162,7 +162,7 @@
   runningFor: "house"
   state: "NV"
   district: 2
-  twitterHandle: "@RepRickShepherd"
+  twitterHandle: "RepRickShepherd"
   websiteLink: "https://rickshepherd.com"
   donationLink: "https://rickshepherd.com/?page_id=1992"
 
@@ -170,21 +170,21 @@
   runningFor: "house"
   state: "NY"
   district: 1
-  twitterHandle: "@davidgokhshtein"
+  twitterHandle: "davidgokhshtein"
   websiteLink: "https://votegokhshtein.com"
 
 - name: "Daniel Ross"
   runningFor: "house"
   state: "NY"
   district: 3
-  twitterHandle: "@DCR2o2o"
+  twitterHandle: "DCR2o2o"
   websiteLink: "https://Ross4NY.com"
 
 - name: "Lutchi Gayot"
   runningFor: "house"
   state: "NY"
   district: 9
-  twitterHandle: "@LutchiGayot"
+  twitterHandle: "LutchiGayot"
   websiteLink: "https://teamgayot.com"
   donationLink: "https://secure.actblue.com/donate/lutchi-gayot"
 
@@ -192,7 +192,7 @@
   runningFor: "house"
   state: "NY"
   district: 10
-  twitterHandle: "@JonathanHerzog5"
+  twitterHandle: "JonathanHerzog5"
   websiteLink: "https://herzog2020.com"
   donationLink: "https://secure.actblue.com/donate/herzog2020"
 
@@ -200,7 +200,7 @@
   runningFor: "house"
   state: "NY"
   district: 13
-  twitterHandle: "@JFKii"
+  twitterHandle: "JFKii"
   websiteLink: "https://JamesFeltonKeith.com"
   donationLink: "https://secure.actblue.com/donate/jfkii"
 
@@ -208,14 +208,14 @@
   runningFor: "house"
   state: "NY"
   district: 15
-  twitterHandle: "@newyorkvonni"
+  twitterHandle: "newyorkvonni"
   donationLink: "https://t.co/M2qql683gp?amp=1"
 
 - name: "John Biggan"
   runningFor: "house"
   state: "TX"
   district: 24
-  twitterHandle: "@Biggan4Congress"
+  twitterHandle: "Biggan4Congress"
   websiteLink: "https://bigganforcongress.com"
   donationLink: "https://secure.actblue.com/donate/biggan-contribute"
 
@@ -223,7 +223,7 @@
   runningFor: "house"
   state: "WA"
   district: 3
-  twitterHandle: "@rudy_atencio"
+  twitterHandle: "rudy_atencio"
   websiteLink: "https://rudywa.org"
   donationLink: "https://secure.actblue.com/donate/rudyatencio"
 
@@ -231,19 +231,19 @@
   runningFor: "house"
   state: "WA"
   district: 5
-  twitterHandle: "@RealArmi"
+  twitterHandle: "RealArmi"
   donationLink: "https://t.co/iDlO0Qjv5Z?amp=1"
 
 - name: "Justin Wooton"
   runningFor: "senate"
   state: "SC"
-  twitterHandle: "@JustinWootonSC"
+  twitterHandle: "JustinWootonSC"
   websiteLink: "https://wootonforsenate.com"
   donationLink: "https://secure.actblue.com/donate/justin-for-justice"
 
 - name: "Zoltan Istvan"
   runningFor: "president"
-  twitterHandle: "@zoltan_istvan"
+  twitterHandle: "zoltan_istvan"
   websiteLink: "https://zoltan2020.com"
   donationLink: "https://zoltan2020.nationbuilder.com/donate"
 
@@ -251,12 +251,12 @@
   runningFor: "house"
   state: "MD"
   district: 5
-  twitterHandle: "@AnbuJr010"
+  twitterHandle: "AnbuJr010"
 
 - name: "Morgan Harper"
   runningFor: "house"
   state: "OH"
   district: 3
-  twitterHandle: "@mh4oh"
+  twitterHandle: "mh4oh"
   websiteLink: "https://www.morganharper.org/"
   donationLink: "https://secure.actblue.com/donate/morganharper"

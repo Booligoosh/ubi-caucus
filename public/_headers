@@ -1,0 +1,2 @@
+/*
+  Content-Security-Policy: default-src 'self'; style-src 'self' https://rsms.me; font-src https://rsms.me; img-src 'self' https://avatars.io

@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <div class="nav-wrapper">
+      <div id="nav">
+        <router-link to="/">Home</router-link> |
+        <router-link to="/about">About</router-link>
+      </div>
     </div>
     <router-view class="page" />
   </div>
@@ -27,12 +29,12 @@ html {
   }
 }
 
-#app {
-  color: hsl(210, 29%, 24%);
+body {
+  margin: 0;
 }
 
-#nav {
-  padding: 30px;
+#app {
+  color: hsl(210, 29%, 24%);
 }
 
 #nav a {
@@ -44,9 +46,16 @@ html {
   color: #42b983;
 }
 
-.page {
+.page,
+#nav {
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
+  padding: 2rem;
+}
+
+.nav-wrapper {
+  background: white;
+  margin-bottom: -3rem;
 }
 </style>

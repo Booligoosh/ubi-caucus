@@ -26,6 +26,18 @@ export default {
 .people {
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 930px) {
+  .people {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .people {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

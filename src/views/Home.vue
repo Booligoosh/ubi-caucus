@@ -35,13 +35,22 @@ export default {
       const people = this.$store.state.people;
       if (this.search) {
         return people.filter(person =>
-          `${person.name} ${person.area}`
-            .toLowerCase()
-            .includes(this.search.toLowerCase())
+          this.transformForSearch(`${person.name} ${person.area}`).includes(
+            this.transformForSearch(this.search)
+          )
         );
       } else {
         return people;
       }
+    }
+  },
+  methods: {
+    transformForSearch(string) {
+      return string
+        .toLowerCase()
+        .replace(/-/g, ``) // So CA05 = CA-05
+        .replace(/ /g, ``) // So CA 05 = CA-05
+        .replace(/0/g, ``); // So CA-5 = CA-05
     }
   }
 };

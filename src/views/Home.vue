@@ -5,7 +5,7 @@
       type="text"
       class="search"
       v-model="search"
-      placeholder="Search by name or district code"
+      placeholder="Search by name, state or district"
     />
     <div class="people">
       <PersonCard

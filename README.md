@@ -1,7 +1,7 @@
 # UBI Caucus
 
 ## Adding / editing candidate data
-We welcome additions and updates to the candidate data on the website. To add or edit a candidate please [edit the candidates.yaml file](https://github.com/Booligoosh/ubi-caucus/edit/store-data-in-repo/src/candidates.yaml) and submit a new pull request
+We welcome additions and updates to the candidate data on the website. To add or edit a candidate please [edit the candidates.yaml file](https://github.com/Booligoosh/ubi-caucus/edit/master/src/candidates.yaml) and submit a new pull request
 
 *To-do: Add full tutorial for how to add/edit candidates including screenshots*
 

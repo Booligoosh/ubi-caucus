@@ -1,1 +1,4 @@
+# Make all paths resolve to Vue code so Vue Router can do it's thing
 /* / 200
+# Redirect Netlify domain to actual domain
+https://ubi-caucus.netlify.com/* https://support.us.openubiproject.org/:splat 301!

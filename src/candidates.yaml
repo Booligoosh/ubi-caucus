@@ -130,6 +130,7 @@
   runningFor: "senate"
   state: "MT"
   twitterHandle: "KnolesMichael"
+  websiteLink: "https://www.mikeknoles2020.com"
   donationLink: "https://secure.actblue.com/donate/mikeknoles#"
 
 - name: "Barbara Ramsey"
@@ -246,6 +247,7 @@
   state: "WA"
   district: 5
   twitterHandle: "RealArmi"
+  websitelink: "https://armitageforcongress.com"
   donationLink: "https://t.co/iDlO0Qjv5Z?amp=1"
 
 - name: "Justin Wooton"
@@ -284,3 +286,5 @@
   twitterHandle: "Marston4ca42"
   websiteLink: "https://reginamarston.com/"
   donationLink: "https://secure.actblue.com/donate/reginamarstonforcongress"
+  
+

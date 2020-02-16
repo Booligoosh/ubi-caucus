@@ -11,7 +11,7 @@ _To-do: Add full tutorial for how to add/edit candidates including screenshots_
 ### Clone the repository
 
 ```
-git clone https://github.com/Booligoosh/ubi-caucus.git
+git clone https://github.com/OpenUBIProject/ubi-caucus.git
 cd ubi-caucus
 ```
 

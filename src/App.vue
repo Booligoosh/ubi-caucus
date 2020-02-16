@@ -5,7 +5,7 @@
         <router-link to="/">Home</router-link> |
         <router-link to="/about">About</router-link> |
         <a
-          href="https://github.com/Booligoosh/ubi-caucus/tree/store-data-in-repo#adding--editing-candidate-data"
+          href="https://github.com/Booligoosh/ubi-caucus#adding--editing-candidate-data"
           target="_blank"
           rel="noopener"
           >Add candidate</a

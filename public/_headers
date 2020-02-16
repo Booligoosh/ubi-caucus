@@ -1,5 +1,5 @@
 /*
-  Content-Security-Policy: default-src 'self'; script-src 'self' https://storage.googleapis.com https://www.googletagmanager.com https://www.google-analytics.com 'sha256-Hmy9goxEkOqrdcJY9x/D62TBjZ3RC4fPEnDqKSAiJmU='; style-src 'self' https://rsms.me; font-src https://rsms.me; img-src 'self' https://avatars.io https://www.google-analytics.com
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://storage.googleapis.com https://www.googletagmanager.com https://www.google-analytics.com 'sha256-CCLQ/Fu0mZKmz6VNx100nXdQaP/HrKOSTmObhAPuDXE='; style-src 'self' https://rsms.me; font-src https://rsms.me; img-src 'self' https://avatars.io https://www.google-analytics.com
   X-Content-Type-Options: nosniff
   # X-Frame-Options: SAMEORIGIN
   Referrer-Policy: origin-when-cross-origin

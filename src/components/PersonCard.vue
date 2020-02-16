@@ -1,24 +1,41 @@
 <template>
   <div class="person-card">
     <div class="card-header">
-      <img :src="imageUrl" />
+      <img
+        :src="imageUrl"
+        :alt="person.name"
+        loading="lazy"
+        width="80"
+        height="80"
+      />
       <div class="card-header-text">
         <h3 class="name">{{ person.name }}</h3>
         <h4 class="area">{{ runningIn }}</h4>
       </div>
     </div>
     <div class="buttons">
-      <a class="website" v-if="websiteLink" :href="websiteLink" target="_blank"
+      <a
+        class="website"
+        v-if="websiteLink"
+        :href="websiteLink"
+        target="_blank"
+        rel="noopener"
         >Website</a
       >
-      <a class="twitter" v-if="twitterLink" :href="twitterLink" target="_blank"
+      <a
+        class="twitter"
+        v-if="twitterLink"
+        :href="twitterLink"
+        target="_blank"
+        rel="noopener"
         >Twitter</a
       >
       <a
         class="donate"
-        v-if="person.donateLink"
-        :href="person.donateLink"
+        v-if="person.donationLink"
+        :href="person.donationLink"
         target="_blank"
+        rel="noopener"
         >Donate</a
       >
     </div>
@@ -26,38 +43,47 @@
 </template>
 
 <script>
+import { padWithZeroes, stateNameFromAbbreviation } from "@/helperFunctions";
+
 export default {
   props: {
     person: Object
   },
   computed: {
     imageUrl() {
-      return `https://avatars.io/twitter/${this.person.twitter}`;
+      return `https://avatars.io/twitter/${this.person.twitterHandle}/medium`;
     },
     runningIn() {
-      if (this.person.area.toLowerCase().trim() === `presidential candidate`) {
+      if (this.person.runningFor === `president`) {
         return `Running for president`;
       } else {
-        return `Running in ${this.person.area}`;
+        if (this.person.district) {
+          return `Running in ${this.person.state}-${padWithZeroes(
+            this.person.district,
+            2
+          )}`;
+        } else {
+          return `Running in ${stateNameFromAbbreviation(this.person.state)}`;
+        }
       }
     },
     websiteLink() {
-      if (this.person.website) {
+      if (this.person.websiteLink) {
         if (
-          this.person.website.startsWith(`http://`) ||
-          this.person.website.startsWith(`https://`)
+          this.person.websiteLink.startsWith(`http://`) ||
+          this.person.websiteLink.startsWith(`https://`)
         ) {
-          return this.person.website;
+          return this.person.websiteLink;
         } else {
-          return `http://${this.person.website}`;
+          return `http://${this.person.websiteLink}`;
         }
       } else {
         return null;
       }
     },
     twitterLink() {
-      if (this.person.twitter) {
-        return `https://twitter.com/${this.person.twitter}`;
+      if (this.person.twitterHandle) {
+        return `https://twitter.com/${this.person.twitterHandle}`;
       } else {
         return null;
       }

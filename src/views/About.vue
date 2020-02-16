@@ -3,7 +3,7 @@
     <h1>About this site</h1>
     <p>
       This site was built by
-      <a href="https://twitter.com/KoalasForYang" target="_blank"
+      <a href="https://twitter.com/KoalasForYang" target="_blank" rel="noopener"
         >@KoalasForYang</a
       >.
     </p>
@@ -14,7 +14,10 @@
         target="_blank"
         >this spreadsheet</a
       >, compiled and maintained by
-      <a href="https://twitter.com/StevenPenderg11" target="_blank"
+      <a
+        href="https://twitter.com/StevenPenderg11"
+        target="_blank"
+        rel="noopener"
         >@StevenPenderg11</a
       >.
     </p>

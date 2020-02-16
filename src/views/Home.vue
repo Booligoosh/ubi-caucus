@@ -2,11 +2,16 @@
   <div class="home">
     <h1>Candidates supporting Universal Basic Income</h1>
     <input
+      id="search"
       type="text"
       class="search"
       v-model="search"
-      placeholder="Search by name or district code"
+      placeholder="Search by name, state or district"
+      autocomplete="off"
     />
+    <label for="search" class="search-label"
+      >Search by name, state or district</label
+    >
     <div class="people">
       <PersonCard
         v-for="person of peopleToShow"
@@ -18,26 +23,35 @@
 </template>
 
 <script>
+import candidates from "json-loader!yaml-loader!../candidates.yaml";
+import { stateNameFromAbbreviation/*, shuffleArray*/ } from "@/helperFunctions";
 import PersonCard from "@/components/PersonCard.vue";
 
 export default {
-  name: "Home",
   components: {
     PersonCard
   },
   data() {
     return {
-      search: ``
+      search: ``,
+      people: /*shuffleArray(*/candidates/*)*/
     };
   },
   computed: {
     peopleToShow() {
-      const people = this.$store.state.people;
+      const people = this.people;
       if (this.search) {
         return people.filter(person =>
-          this.transformForSearch(`${person.name} ${person.area}`).includes(
-            this.transformForSearch(this.search)
-          )
+          this.transformForSearch(
+            [
+              person.name,
+              person.state,
+              stateNameFromAbbreviation(person.state),
+              person.district,
+              person.state + person.district,
+              stateNameFromAbbreviation(person.state) + person.district
+            ].join(` `)
+          ).includes(this.transformForSearch(this.search))
         );
       } else {
         return people;
@@ -93,5 +107,9 @@ export default {
 .search:focus {
   outline: none;
   box-shadow: inset 0 0 0 1px hsl(210, 29%, 85%);
+}
+
+.search-label {
+  display: none;
 }
 </style>

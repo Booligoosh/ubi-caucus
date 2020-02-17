@@ -2,9 +2,7 @@
 
 ## Adding / editing candidate data
 
-We welcome additions and updates to the candidate data on the website. To add or edit a candidate please [edit the candidates.yaml file](https://github.com/Booligoosh/ubi-caucus/edit/master/src/candidates.yaml) and submit a new pull request
-
-_To-do: Add full tutorial for how to add/edit candidates including screenshots_
+If there is some data that you think should be added/edited, please [open an issue](https://github.com/OpenUBIProject/support.us.openubiproject.org/issues/new).
 
 ## Running the code
 

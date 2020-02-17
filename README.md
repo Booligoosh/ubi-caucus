@@ -9,8 +9,8 @@ If there is some data that you think should be added/edited, please [open an iss
 ### Clone the repository
 
 ```
-git clone https://github.com/OpenUBIProject/ubi-caucus.git
-cd ubi-caucus
+git clone https://github.com/OpenUBIProject/support.us.openubiproject.org.git
+cd support.us.openubiproject.org
 ```
 
 ### Project setup

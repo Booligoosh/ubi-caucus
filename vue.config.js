@@ -15,18 +15,9 @@ module.exports = {
       clientsClaim: true
     }
   },
-  chainWebpack: config => {
-    config.module
-      .rule("yaml")
-      .test(/\.ya?ml$/)
-      .use("yaml-loader")
-      .loader("yaml-loader")
-      .end();
-  },
   devServer: {
     port: 2024
   },
-
   configureWebpack: {
     plugins: [
       new BundleAnalyzerPlugin({

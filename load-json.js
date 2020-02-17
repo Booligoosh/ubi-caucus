@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const fs = require("fs");
 const fetch = require("node-fetch");
 const parse = require("csv-parse/lib/sync");

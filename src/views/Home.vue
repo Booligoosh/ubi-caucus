@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import candidates from "json-loader!yaml-loader!../candidates.yaml";
+import candidates from "@/candidates.json";
 import { stateNameFromAbbreviation, shuffleArray } from "@/helperFunctions";
 import PersonCard from "@/components/PersonCard.vue";
 

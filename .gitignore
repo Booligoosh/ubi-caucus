@@ -2,7 +2,11 @@
 node_modules
 /dist
 
+# Generated during build
+/src/candidates.json
+
 # local env files
+.env
 .env.local
 .env.*.local
 

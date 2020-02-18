@@ -201,7 +201,8 @@ $grid-gap: 0.5rem;
     padding: 0;
   }
   .candidate-link {
-    padding: 0 2rem;
+    padding: 2rem;
+    padding-top: 0;
   }
   .hero,
   .project:nth-child(3) {

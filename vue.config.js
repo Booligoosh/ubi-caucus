@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
   .BundleAnalyzerPlugin;
 

@@ -4,6 +4,7 @@
       class="open-ubi-banner"
       href="https://us.openubiproject.org"
       target="_blank"
+      v-if="host !== `us.openubiproject.org`"
     >
       <div class="open-ubi-banner-inner">
         <img src="img/>=.svg" />
@@ -12,7 +13,7 @@
         >
       </div>
     </a>
-    <div class="nav-wrapper">
+    <div class="nav-wrapper" v-if="host !== `us.openubiproject.org`">
       <div id="nav" v-if="host === `support.us.openubiproject.org`">
         <router-link to="/">Home</router-link> |
         <router-link to="/about">About</router-link> |
@@ -23,12 +24,12 @@
           >Add candidate</a
         >
       </div>
-      <div id="nav" v-if="host === `us.openubiproject.org`">
+      <!-- <div id="nav" v-if="host === `us.openubiproject.org`">
         <router-link to="/">Home</router-link> |
         <a href="https://discordapp.com" target="_blank" rel="noopener"
           >Discord</a
         >
-      </div>
+      </div> -->
     </div>
     <router-view class="page" />
   </div>

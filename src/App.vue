@@ -109,6 +109,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   max-width: 1264px;
+  width: 100%;
   padding: 2rem;
 }
 

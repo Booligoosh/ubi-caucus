@@ -8,7 +8,7 @@
       <div class="open-ubi-banner-inner">
         <img src="img/>=.svg" />
         <span class="open-ubi-banner-text">
-          Site made by the Open UBI Project ↗</span
+          This site is part of the UBI Caucus ↗</span
         >
       </div>
     </a>

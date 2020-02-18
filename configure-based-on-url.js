@@ -1,5 +1,6 @@
 require("dotenv").config();
 const fs = require("fs");
+console.log("ENV URL:", process.env.URL);
 if (process.env.URL === `https://support.us.openubiproject.org`) {
   fs.writeFileSync(
     "./public/index.html",

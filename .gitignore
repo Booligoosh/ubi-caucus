@@ -4,6 +4,7 @@ node_modules
 
 # Generated during build
 /src/candidates.json
+/public/index.html
 
 # local env files
 .env

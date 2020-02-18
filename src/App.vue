@@ -1,5 +1,17 @@
 <template>
   <div id="app">
+    <a
+      class="open-ubi-banner"
+      href="https://us.openubiproject.org"
+      target="_blank"
+    >
+      <div class="open-ubi-banner-inner">
+        <img src="img/>=.svg" />
+        <span class="open-ubi-banner-text">
+          Site made by the Open UBI Project ↗</span
+        >
+      </div>
+    </a>
     <div class="nav-wrapper">
       <div id="nav">
         <router-link to="/">Home</router-link> |
@@ -59,7 +71,8 @@ body {
 }
 
 .page,
-#nav {
+#nav,
+.open-ubi-banner-inner {
   margin-left: auto;
   margin-right: auto;
   max-width: 1264px;
@@ -75,5 +88,30 @@ p a {
   text-decoration: none;
   font-weight: bold;
   color: hsl(203, 89%, 53%);
+}
+
+.open-ubi-banner {
+  background: #243665;
+  color: white;
+  font-weight: 400;
+  display: block;
+  text-decoration: none;
+}
+
+.open-ubi-banner-inner {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+  transition: opacity 200ms ease-in-out;
+}
+
+.open-ubi-banner img {
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+.open-ubi-banner:hover .open-ubi-banner-inner {
+  opacity: 1;
 }
 </style>

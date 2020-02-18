@@ -7,7 +7,7 @@ module.exports = {
       process.env.URL === `https://support.us.openubiproject.org`
         ? `Candidates supporting Universal Basic Income`
         : `UBI Caucus`,
-    themeColor: `#2b3d4f`,
+    themeColor: `#243665`,
     manifestOptions: {
       short_name:
         process.env.URL === `https://support.us.openubiproject.org`

@@ -91,6 +91,7 @@ body {
 #nav {
   color: #9da4ac;
   cursor: default;
+  z-index: 1;
 }
 
 #nav a {

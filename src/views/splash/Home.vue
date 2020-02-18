@@ -28,10 +28,7 @@
         </h2>
         <p>Find and support candidates running for congress who support UBI</p>
       </a>
-      <a
-        href="https://www.change.org/p/democratic-national-committee-i-support-ubi"
-        class="project"
-      >
+      <a href="https://petition.us.openubiproject.org" class="project">
         <h2>
           <span class="ubi-highlight">UBI</span> Petition
           <span class="link-arrow">↗</span>
@@ -43,7 +40,7 @@
     </div>
     <a
       class="candidate-link"
-      href="https://candidate.survey.us.openubiproject.org/"
+      href="https://candidate.survey.us.openubiproject.org"
       >Are you a candidate? Add yourself to the Open UBI Project!</a
     >
   </div>

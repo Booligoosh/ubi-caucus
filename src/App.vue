@@ -6,7 +6,7 @@
       v-if="host !== `us.openubiproject.org`"
     >
       <div class="open-ubi-banner-inner">
-        <img src="img/>=.svg" />
+        <img src="img/>=.svg" alt="UBI Caucus Logo" />
         <span class="open-ubi-banner-text">
           This site is part of the UBI Caucus ↗</span
         >

@@ -3,7 +3,6 @@
     <a
       class="open-ubi-banner"
       href="https://us.openubiproject.org"
-      target="_blank"
       v-if="host !== `us.openubiproject.org`"
     >
       <div class="open-ubi-banner-inner">

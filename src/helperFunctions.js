@@ -23,15 +23,15 @@ export function shuffleArray(array) {
 }
 
 export function getHost() {
-  if (
-    [`us.openubiproject.org`, `support.us.openubiproject.org`].includes(
-      window.location.host
-    )
-  ) {
-    return window.location.host;
+  if (window.location.hash === `#splash`) {
+    return `us.openubiproject.org`;
   } else {
-    if (window.location.hash === `#splash`) {
-      return `us.openubiproject.org`;
+    if (
+      [`us.openubiproject.org`, `support.us.openubiproject.org`].includes(
+        window.location.host
+      )
+    ) {
+      return window.location.host;
     } else {
       return `support.us.openubiproject.org`;
     }

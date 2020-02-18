@@ -4,7 +4,7 @@
       <div class="logo">
         <img src="img/>=.svg" />
         <span>
-          Open UBI Project
+          UBI Caucus
           <span class="tagline">&mdash; Make the economy work for us</span>
         </span>
       </div>
@@ -159,9 +159,6 @@ $grid-gap: 0.5rem;
 }
 
 @media screen and (max-width: 835px) {
-  .tagline {
-    display: none;
-  }
   .hero blockquote {
     font-size: 3.3rem;
   }
@@ -178,6 +175,12 @@ $grid-gap: 0.5rem;
         border-bottom-left-radius: 10px;
       }
     }
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .tagline {
+    display: none;
   }
 }
 

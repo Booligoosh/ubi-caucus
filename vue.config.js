@@ -3,10 +3,16 @@ const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
 
 module.exports = {
   pwa: {
-    name: `Candidates supporting Universal Basic Income`,
+    name:
+      process.env.url === `https://support.us.openubiproject.org`
+        ? `Candidates supporting Universal Basic Income`
+        : `UBI Caucus`,
     themeColor: `#2b3d4f`,
     manifestOptions: {
-      short_name: `UBI Candidates`
+      short_name:
+        process.env.url === `https://support.us.openubiproject.org`
+          ? `UBI Candidates`
+          : `UBI Caucus`
     },
     workboxOptions: {
       exclude: [`_redirects`, `_headers`],

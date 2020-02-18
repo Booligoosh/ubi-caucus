@@ -28,7 +28,10 @@
         </h2>
         <p>Find and support candidates running for congress who support UBI</p>
       </a>
-      <a href="#" class="project">
+      <a
+        href="https://www.change.org/p/democratic-national-committee-i-support-ubi"
+        class="project"
+      >
         <h2>
           <span class="ubi-highlight">UBI</span> Petition
           <span class="link-arrow">↗</span>

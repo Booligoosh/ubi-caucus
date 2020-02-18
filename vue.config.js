@@ -14,7 +14,8 @@ module.exports = {
       short_name:
         process.env.url === `https://support.us.openubiproject.org`
           ? `UBI Candidates`
-          : `UBI Caucus`
+          : `UBI Caucus`,
+      background_color: `#243665`
     },
     workboxOptions: {
       exclude: [`_redirects`, `_headers`],

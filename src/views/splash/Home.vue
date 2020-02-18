@@ -49,17 +49,24 @@
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 $grid-gap: 0.5rem;
+
+.page {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: none;
+}
 
 .hero {
   padding: 5rem;
   border-radius: 10px 10px 0 0;
   background: #243665;
   color: white;
-  // height: 600px;
+  flex-grow: 1;
   margin-bottom: $grid-gap;
-  margin-top: 2rem;
+  // margin-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;

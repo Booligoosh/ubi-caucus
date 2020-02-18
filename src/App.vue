@@ -59,6 +59,27 @@ html {
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
+body,
+#app,
+.page {
+  min-height: 100%;
+}
+
+body,
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+#app,
+.page {
+  flex-grow: 1;
+}
+
 body {
   margin: 0;
 }

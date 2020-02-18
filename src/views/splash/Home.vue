@@ -129,9 +129,62 @@ $grid-gap: 0.5rem;
   }
 }
 
+@media screen and (max-width: 1320px) {
+  .hero {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  .tagline {
+    display: none;
+  }
+  .hero blockquote {
+    font-size: 3.3rem;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .projects {
     grid-template-columns: 1fr;
+    .project {
+      &:nth-child(1) {
+        border-radius: 0;
+      }
+      &:nth-child(3) {
+        border-bottom-left-radius: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 605px) {
+  .hero {
+    padding: 3rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .hero blockquote {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .page {
+    padding: 0;
+  }
+  .hero,
+  .project:nth-child(3) {
+    border-radius: 0 !important;
+  }
+}
+@media screen and (max-width: 390px) {
+  .hero {
+    padding: 2rem;
+    blockquote {
+      font-size: 2rem;
+    }
   }
 }
 </style>

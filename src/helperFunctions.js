@@ -23,7 +23,8 @@ export function shuffleArray(array) {
 }
 
 export function getHost() {
-  return process.env.URL === `https://support.us.openubiproject.org`
+  return window.location.host === `support.us.openubiproject.org` ||
+    process.env.URL === `https://support.us.openubiproject.org`
     ? `support.us.openubiproject.org`
     : `us.openubiproject.org`;
 }

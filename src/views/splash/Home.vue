@@ -43,7 +43,7 @@
     </div>
     <a
       class="candidate-link"
-      href="https://candidate.survey.us.openubiproject.org/"
+      href="http://candidate.survey.us.openubiproject.org"
       >Are you a candidate? Add yourself to the Open UBI Project!</a
     >
   </div>

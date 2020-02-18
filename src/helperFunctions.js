@@ -23,13 +23,12 @@ export function shuffleArray(array) {
 }
 
 export function getHost() {
-  let host;
   if (
     [`us.openubiproject.org`, `support.us.openubiproject.org`].includes(
       window.location.host
     )
   ) {
-    return host;
+    return window.location.host;
   } else {
     if (window.location.hash === `#splash`) {
       return `us.openubiproject.org`;

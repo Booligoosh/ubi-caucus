@@ -2,7 +2,7 @@
   <div>
     <div class="hero">
       <div class="logo">
-        <img src="img/>=.svg" />
+        <img src="img/>=.svg" alt="UBI Caucus Logo" />
         <span>
           UBI Caucus
           <span class="tagline">&mdash; Make the economy work for us</span>

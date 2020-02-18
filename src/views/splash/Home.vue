@@ -41,6 +41,11 @@
         </p>
       </a>
     </div>
+    <a
+      class="candidate-link"
+      href="https://candidate.survey.us.openubiproject.org/"
+      >Are you a candidate? Add yourself to the Open UBI Project!</a
+    >
   </div>
 </template>
 
@@ -129,6 +134,20 @@ $grid-gap: 0.5rem;
   }
 }
 
+.candidate-link {
+  display: block;
+  margin-top: 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.5;
+  transition: opacity 200ms ease-in-out;
+}
+
+.candidate-link:hover {
+  opacity: 1;
+}
+
 @media screen and (max-width: 1320px) {
   .hero {
     margin-top: 0;
@@ -173,6 +192,9 @@ $grid-gap: 0.5rem;
 @media screen and (max-width: 450px) {
   .page {
     padding: 0;
+  }
+  .candidate-link {
+    padding: 0 2rem;
   }
   .hero,
   .project:nth-child(3) {

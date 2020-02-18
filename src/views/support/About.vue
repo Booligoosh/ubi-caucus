@@ -5,7 +5,12 @@
       This site was programmed by
       <a href="https://twitter.com/KoalasForYang" target="_blank" rel="noopener"
         >@KoalasForYang</a
-      >, as part of the Open UBI Project.
+      >, as part of the Open UBI Project (<a
+        href="https://twitter.com/open_ubi"
+        target="_blank"
+        rel="noopener"
+        >@open_ubi</a
+      >).
     </p>
     <p>
       It was built in collaboration with
@@ -21,7 +26,12 @@
       >.
     </p>
     <p>
-      The data is maintained by the Open UBI Project. Please contact
+      The data is maintained by the UBI Caucus (<a
+        href="https://twitter.com/UBICaucus"
+        target="_blank"
+        rel="noopener"
+        >@UBICaucus</a
+      >). Please contact
       <a
         href="https://twitter.com/StevenPenderg11"
         target="_blank"

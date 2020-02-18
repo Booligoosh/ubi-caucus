@@ -21,3 +21,20 @@ export function shuffleArray(array) {
   }
   return array;
 }
+
+export function getHost() {
+  let host;
+  if (
+    [`us.openubiproject.org`, `support.us.openubiproject.org`].includes(
+      window.location.host
+    )
+  ) {
+    return host;
+  } else {
+    if (window.location.hash === `#splash`) {
+      return `us.openubiproject.org`;
+    } else {
+      return `support.us.openubiproject.org`;
+    }
+  }
+}

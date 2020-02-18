@@ -13,7 +13,7 @@
       </div>
     </a>
     <div class="nav-wrapper">
-      <div id="nav">
+      <div id="nav" v-if="host === `support.us.openubiproject.org`">
         <router-link to="/">Home</router-link> |
         <router-link to="/about">About</router-link> |
         <a
@@ -23,13 +23,25 @@
           >Add candidate</a
         >
       </div>
+      <div id="nav" v-if="host === `us.openubiproject.org`">
+        <router-link to="/">Home</router-link> |
+        <a href="https://discordapp.com" target="_blank" rel="noopener"
+          >Discord</a
+        >
+      </div>
     </div>
     <router-view class="page" />
   </div>
 </template>
 
 <script>
-export default {};
+import { getHost } from "@/helperFunctions";
+
+export default {
+  computed: {
+    host: getHost
+  }
+};
 </script>
 
 <style>

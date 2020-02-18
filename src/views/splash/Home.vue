@@ -9,7 +9,7 @@
         </span>
       </div>
       <blockquote>
-        Working to secure a Universal Basic Income for <i>all</i> Amercians.
+        Working to secure a Universal Basic Income for <i>all</i> Americans.
       </blockquote>
     </div>
     <!-- <h1>Our projects</h1> -->

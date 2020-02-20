@@ -3,5 +3,7 @@ https://ubi-caucus.netlify.com/ https://support.us.openubiproject.org/ 301!
 https://ubi-caucus.netlify.com/about https://support.us.openubiproject.org/about 301!
 https://ubi-caucus.netlify.com/bundleAnalyzer https://support.us.openubiproject.org/bundleAnalyzer 301!
 
-# Make all paths resolve to Vue code so Vue Router can do it's thing
+https://open-ubi-us.netlify.com/* https://us.openubiproject.org/:splat 301!
+
+# Make all paths resolve to Vue code so Vue Router can do its thing
 /* / 200

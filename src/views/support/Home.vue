@@ -77,6 +77,10 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  margin-top: 0;
+}
+
 .people {
   display: grid;
   grid-gap: 2rem;

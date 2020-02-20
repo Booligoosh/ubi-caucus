@@ -12,18 +12,8 @@
         >
       </div>
     </a>
-    <div class="nav-wrapper">
-      <div id="nav" v-if="host === `support.us.openubiproject.org`">
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link> |
-        <a
-          href="https://github.com/Booligoosh/ubi-caucus#adding--editing-candidate-data"
-          target="_blank"
-          rel="noopener"
-          >Add candidate</a
-        >
-      </div>
-      <div id="nav" v-if="host === `us.openubiproject.org`">
+    <div class="nav-wrapper" v-if="host === `us.openubiproject.org`">
+      <div id="nav">
         <router-link to="/">Home</router-link> |
         <router-link to="/about">About</router-link> |
         <router-link to="/pledge">Candidate pledge</router-link> |

@@ -44,7 +44,7 @@
     <a
       class="candidate-link"
       href="http://candidate.survey.us.openubiproject.org"
-      >Are you a candidate? Join the UBI Caucus!</a
+      ><b>Are you a candidate?</b> Join the UBI Caucus!</a
     >
   </div>
 </template>

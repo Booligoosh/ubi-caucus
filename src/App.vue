@@ -12,7 +12,7 @@
         >
       </div>
     </a>
-    <div class="nav-wrapper" v-if="host !== `us.openubiproject.org`">
+    <div class="nav-wrapper">
       <div id="nav" v-if="host === `support.us.openubiproject.org`">
         <router-link to="/">Home</router-link> |
         <router-link to="/about">About</router-link> |
@@ -23,12 +23,18 @@
           >Add candidate</a
         >
       </div>
-      <!-- <div id="nav" v-if="host === `us.openubiproject.org`">
+      <div id="nav" v-if="host === `us.openubiproject.org`">
         <router-link to="/">Home</router-link> |
-        <a href="https://discordapp.com" target="_blank" rel="noopener"
+        <router-link to="/about">About</router-link> |
+        <router-link to="/pledge">Candidate pledge</router-link> |
+        <a href="https://twitter.com/UBIcaucus" target="_blank" rel="noopener"
+          >Twitter</a
+        >
+        |
+        <a href="https://discord.gg/bwzcggQ" target="_blank" rel="noopener"
           >Discord</a
         >
-      </div> -->
+      </div>
     </div>
     <router-view class="page" />
   </div>

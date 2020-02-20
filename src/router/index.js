@@ -17,7 +17,9 @@ const suppportRoutes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/support/About.vue")
+      import(
+        /* webpackChunkName: "support-about" */ "../views/support/About.vue"
+      )
   }
 ];
 
@@ -26,6 +28,20 @@ const splashRoutes = [
     path: "/",
     name: "Home",
     component: () => import("../views/splash/Home.vue")
+  },
+  {
+    path: "/about",
+    name: "About",
+    component: () =>
+      import(/* webpackChunkName: "splash-about" */ "../views/splash/About.vue")
+  },
+  {
+    path: "/pledge",
+    name: "Candidate Pledge",
+    component: () =>
+      import(
+        /* webpackChunkName: "splash-pledge" */ "../views/splash/Pledge.vue"
+      )
   }
 ];
 

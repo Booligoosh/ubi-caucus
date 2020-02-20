@@ -44,10 +44,14 @@
     <a
       class="candidate-link"
       href="http://candidate.survey.us.openubiproject.org"
-      >Are you a candidate? Add yourself to the Open UBI Project!</a
+      >Are you a candidate? Join the UBI Caucus!</a
     >
   </div>
 </template>
+
+<style lang="scss">
+/* Unscoped */
+</style>
 
 <style lang="scss" scoped>
 $grid-gap: 0.5rem;
@@ -56,7 +60,9 @@ $grid-gap: 0.5rem;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  max-width: none;
+  // max-width: none;
+  padding-top: 0;
+  margin-top: 3rem;
 }
 
 .hero {

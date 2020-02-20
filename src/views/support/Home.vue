@@ -3,7 +3,7 @@
     <h1>Candidates supporting Universal Basic Income</h1>
     <p class="explainer">
       Everyone on this list has agreed to the
-      <a href="https://us.openubiproject.org/pledge" target="_blank"
+      <a href="https://us.openubiproject.org/pledge"
         >UBI Caucus memeber pledge</a
       >
     </p>

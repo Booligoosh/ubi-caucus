@@ -1,14 +1,12 @@
 <template>
   <div>
     <blockquote class="pledge">
-      <p>
-        &ldquo;If elected, I pledge to introduce legislation that can be passed
-        by the House, Senate and signed into law by the President in the first
-        quarter of 2021 that transparently funds and guarantees a Universal
-        Basic Income (UBI) for the citizens of the United States of America, at
-        a rate which covers basic human needs in an effort to eliminate poverty,
-        while building a robust national economy.&rdquo;
-      </p>
+      &ldquo;If elected, I pledge to introduce legislation that can be passed by
+      the House, Senate and signed into law by the President in the first
+      quarter of 2021 that transparently funds and guarantees a Universal Basic
+      Income (UBI) for the citizens of the United States of America, at a rate
+      which covers basic human needs in an effort to eliminate poverty, while
+      building a robust national economy.&rdquo;
     </blockquote>
   </div>
 </template>

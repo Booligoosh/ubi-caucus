@@ -4,7 +4,7 @@
     <p class="explainer">
       Everyone on this list has agreed to the
       <a href="https://us.openubiproject.org/pledge"
-        >UBI Caucus memeber pledge</a
+        >UBI Caucus member pledge</a
       >
     </p>
     <input

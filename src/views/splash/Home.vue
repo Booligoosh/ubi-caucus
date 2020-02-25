@@ -40,6 +40,15 @@
           Sign the petition to show America's support of Universal Basic Income
         </p>
       </a>
+      <a href="https://shop.us.openubiproject.org/" class="project">
+        <h2>
+          <span class="ubi-highlight">UBI</span> Shop
+          <span class="link-arrow">↗</span>
+        </h2>
+        <p>
+          Buy some UBI Caucus merch! Profits go to the Humanity Forward Fund.
+        </p>
+      </a>
     </div>
     <a
       class="candidate-link"
@@ -107,8 +116,10 @@ $grid-gap: 0.5rem;
 
 .projects {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: $grid-gap;
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
 
   .project {
     padding: 2rem;
@@ -117,7 +128,6 @@ $grid-gap: 0.5rem;
     &:nth-child(1) {
       background: hsl(210, 29%, 24%);
       color: white;
-      border-bottom-left-radius: 10px;
     }
     &:nth-child(2) {
       background: hsl(203, 89%, 53%);
@@ -126,7 +136,10 @@ $grid-gap: 0.5rem;
     &:nth-child(3) {
       background: hsl(0, 100%, 69%);
       color: white;
-      border-bottom-right-radius: 10px;
+    }
+    &:nth-child(4) {
+      background: hsl(210, 30%, 90%);
+      color: inherit;
     }
 
     h2 {
@@ -167,23 +180,15 @@ $grid-gap: 0.5rem;
   }
 }
 
-@media screen and (max-width: 835px) {
-  .hero blockquote {
-    font-size: 3.3rem;
+@media screen and (max-width: 1050px) {
+  .projects {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
-@media screen and (max-width: 800px) {
-  .projects {
-    grid-template-columns: 1fr;
-    .project {
-      &:nth-child(1) {
-        border-radius: 0;
-      }
-      &:nth-child(3) {
-        border-bottom-left-radius: 10px;
-      }
-    }
+@media screen and (max-width: 835px) {
+  .hero blockquote {
+    font-size: 3.3rem;
   }
 }
 
@@ -196,6 +201,9 @@ $grid-gap: 0.5rem;
 @media screen and (max-width: 605px) {
   .hero {
     padding: 3rem;
+  }
+  .projects {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -214,8 +222,8 @@ $grid-gap: 0.5rem;
     margin-top: 0;
   }
   .hero,
-  .project:nth-child(3) {
-    border-radius: 0 !important;
+  .projects {
+    border-radius: 0;
   }
 }
 @media screen and (max-width: 390px) {

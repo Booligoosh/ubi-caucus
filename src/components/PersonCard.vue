@@ -56,7 +56,10 @@ export default {
     runningIn() {
       if (this.person.runningFor === `president`) {
         return `Running for president`;
-      } else {
+      } else if (
+        this.person.runningFor === "senate" ||
+        this.person.runningFor === "house"
+      ) {
         if (this.person.district) {
           return `Running in ${this.person.state}-${padWithZeroes(
             this.person.district,
@@ -65,6 +68,8 @@ export default {
         } else {
           return `Running in ${stateNameFromAbbreviation(this.person.state)}`;
         }
+      } else {
+        return `Running for ${this.person.runningFor}`;
       }
     },
     websiteLink() {

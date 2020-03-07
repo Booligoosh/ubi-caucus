@@ -33,6 +33,13 @@ function recordToCandidate(record) {
   if (distCell === "President") {
     // President
     candidate.runningFor = "president";
+  } else if (
+    distCell
+      .toLowerCase()
+      .trim()
+      .startsWith("local")
+  ) {
+    candidate.runningFor = distCell.trim().replace(/^local( *- *)?/i, "");
   } else if (distCell.includes("-")) {
     // House
     candidate.runningFor = "house";

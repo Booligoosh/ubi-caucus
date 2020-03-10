@@ -21,7 +21,7 @@
           >Twitter</a
         >
         |
-        <a href="https://discord.gg/bwzcggQ" target="_blank" rel="noopener"
+        <a href="http://discord.gg/xuzvM3p" target="_blank" rel="noopener"
           >Discord</a
         >
       </div>

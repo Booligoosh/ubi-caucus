@@ -51,7 +51,7 @@ export default {
   },
   computed: {
     imageUrl() {
-      return `https://avatars.io/twitter/${this.person.twitterHandle}/medium`;
+      return `https://twivatar.glitch.me/${this.person.twitterHandle}/medium`;
     },
     runningIn() {
       if (this.person.runningFor === `president`) {

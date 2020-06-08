@@ -1,11 +1,24 @@
 require("dotenv").config();
 
 const fs = require("fs");
+const yaml = require("js-yaml");
 const fetch = require("node-fetch");
 const parse = require("csv-parse/lib/sync");
 const endpoint = process.env.SPREADSHEET_CSV_ENDPOINT;
 
-loadJSONFromSheet();
+// loadJSONFromSheet();
+loadJSONFromGitHub();
+
+async function loadJSONFromGitHub() {
+  const yamlText = await fetch(
+    "https://raw.githubusercontent.com/OpenUBIProject/data/master/candidates.yaml"
+  ).then(r => r.text());
+
+  fs.writeFileSync(
+    "./src/candidates.json",
+    JSON.stringify(yaml.safeLoad(yamlText))
+  );
+}
 
 async function loadJSONFromSheet() {
   const csv = await fetch(endpoint).then(r => r.text());

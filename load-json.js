@@ -5,9 +5,9 @@ const fetch = require("node-fetch");
 const parse = require("csv-parse/lib/sync");
 const endpoint = process.env.SPREADSHEET_CSV_ENDPOINT;
 
-loadJSON();
+loadJSONFromSheet();
 
-async function loadJSON() {
+async function loadJSONFromSheet() {
   const csv = await fetch(endpoint).then(r => r.text());
   const records = parse(csv, {
     columns: true,

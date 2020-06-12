@@ -6,8 +6,8 @@ const fetch = require("node-fetch");
 const parse = require("csv-parse/lib/sync");
 const endpoint = process.env.SPREADSHEET_CSV_ENDPOINT;
 
-loadJSONFromSheet();
-// loadJSONFromGitHub();
+// loadJSONFromSheet();
+loadJSONFromGitHub();
 
 async function loadJSONFromGitHub() {
   const yamlText = await fetch(

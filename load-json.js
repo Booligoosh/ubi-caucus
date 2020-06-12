@@ -27,7 +27,7 @@ async function loadJSONFromSheet() {
     skip_empty_lines: true
   });
   const candidates = records.map(recordToCandidate);
-  console.log(candidates);
+  console.log(JSON.stringify(candidates, null, 2));
 
   fs.writeFileSync("./src/candidates.json", JSON.stringify(candidates));
 }

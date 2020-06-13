@@ -63,10 +63,6 @@ body,
 #app,
 .page {
   min-height: 100%;
-}
-
-body,
-#app {
   display: flex;
   flex-direction: column;
 }

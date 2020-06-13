@@ -18,7 +18,10 @@
     <label for="search" class="search-label"
       >Search by name, state or district</label
     >
-    <div class="people">
+    <div class="loading-candidates" v-if="people.length === 0">
+      Loading candidates &hellip;
+    </div>
+    <div class="people" v-else>
       <PersonCard
         v-for="person of peopleToShow"
         :key="person.id"
@@ -29,9 +32,9 @@
 </template>
 
 <script>
-import candidates from "@/candidates.json";
 import { stateNameFromAbbreviation, shuffleArray } from "@/helperFunctions";
 import PersonCard from "@/components/PersonCard.vue";
+import yaml from "js-yaml";
 
 export default {
   components: {
@@ -40,8 +43,11 @@ export default {
   data() {
     return {
       search: ``,
-      people: shuffleArray(candidates)
+      people: []
     };
+  },
+  created() {
+    this.loadCandidates();
   },
   computed: {
     peopleToShow() {
@@ -65,6 +71,13 @@ export default {
     }
   },
   methods: {
+    async loadCandidates() {
+      const yamlText = await fetch(
+        "https://data.us.openubiproject.org/candidates.yaml"
+      ).then(r => r.text());
+      const candidatesArray = yaml.safeLoad(yamlText);
+      this.people = shuffleArray(candidatesArray);
+    },
     transformForSearch(string) {
       return string
         .toLowerCase()
@@ -99,6 +112,10 @@ h1 {
   }
 }
 
+.explainer {
+  margin-top: 0;
+}
+
 .search {
   margin-bottom: 2rem;
   padding: 1rem;
@@ -121,5 +138,12 @@ h1 {
 
 .search-label {
   display: none;
+}
+
+.loading-candidates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
 }
 </style>

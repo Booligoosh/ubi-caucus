@@ -19,7 +19,7 @@
       >Search by name, state or district</label
     >
     <div class="loading-candidates" v-if="people.length === 0">
-      Loading candidates &hellip;
+      Loading candidates&hellip;
     </div>
     <div class="people" v-else>
       <PersonCard
